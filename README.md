@@ -2,6 +2,8 @@
 
 Small Java CLI tool that simulates many MQTT producers publishing JSON messages in parallel.
 
+Each producer simulates a single MQTT device (for example, one sensor).
+
 ## What it does
 
 At runtime, the app:
