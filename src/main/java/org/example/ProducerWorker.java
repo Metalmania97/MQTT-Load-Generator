@@ -34,7 +34,7 @@ public class ProducerWorker implements Runnable {
 
     @Override
     public void run() {
-        String producerTopic = config.topic() + "/" + producerId;
+        String producerTopic = config.topic();
         Random random = new Random();
         MqttClient client = null;
 
